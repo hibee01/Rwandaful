@@ -30,6 +30,16 @@ div {
     width: 15%;
 }
 
+.video-cont {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2rem;
+    
+}
+
 
 @media (max-width: 767px) {
 
