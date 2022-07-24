@@ -1,60 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 * {
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
     padding: 0;
 }
-
-div {
-    width: 100%;
+body {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    background-image: url(img/Group\ 153945.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 7%;
+    margin-bottom: 3rem;
+}
+section {
+    margin-bottom: 5rem;
+}
+#project-overview ul{
+    margin-bottom: 3rem;
+}
+#project-overview h2, #project-overview li{
+    margin-bottom: 1rem;
+}
+#project-overview p{
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+#project-overview p:last-of-type{
+    margin-bottom: 1rem;
+}
+.role {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 3rem;
+}
+.container {
+    width: 80%;
     margin: auto;
 }
-
-.rwandaful-img {
+.container-text {
+    width: 60%;
+    margin: auto;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo {
+    flex-basis: 10%;
+}
+.design-soft {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.hero-img-cont {
+    flex-basis: 60%;
+    display: flex;
+    background-color: chartreuse;
+}
+.hero-img img{
+    width: 90%;
+}
+#process {
+    background-color: #21252F;
+    padding: 4rem 0;
+}
+#process h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #fff;
+}
+#research h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#research p {
+    text-align: center;
+    line-height: 1.5;
+}
+#persona h2, #Chart h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#wireframe h2, #visual h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#persona img, #Chart img, #process img, #visual img {
     width: 100%;
 }
-
-.rwandaful-img767 {
-    display: none;
-}
-
-.container-rw {
+.low-fi-cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    background-color: black;
-    padding: 0.8rem 0;
 }
-
-.store {
-    width: 15%;
+.low-fi-img img {
+    width: 100%;
 }
-
-.video-cont {
+#Designs h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.design-sub-header{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.design-cont {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 2rem;
-    
+    align-items: center;
+    margin-bottom: 4rem;
 }
-
-
-@media (max-width: 767px) {
-
-    div {
-        width: 100%;
-        margin: auto;
-    }
-
-    .rwandaful-img {
-        display: none;
-    }
-    
-    .rwandaful-img767 {
-        width: 100%;
-        display: block;
-    }
-    
+.ui-text {
+    flex-basis: 35%;
+}
+.ui-img {
+    flex-basis: 60%;
+}
+.ui-img img {
+    width: 100%;
+}
+.ui-text h3 {
+   margin-bottom: 1.2rem;
+}
+/* .cont-2 .ui-img {
+    order: 1;
+} */
+#screens {
+    background-color: #EFF3FA;
+    padding: 5rem 0;
+    margin-bottom: 0;
+}
+#screens h2 {
+   margin-bottom: 5rem;
+   text-align: center;
+}
+.screen-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+.screen {
+    flex-basis: 22%;
+}
+.screen img {
+    width: 100%;
+}
+.footer {
+    background-color: #21252F;
+    padding: 3rem 0;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
 }
