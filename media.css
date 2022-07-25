@@ -1,14 +1,41 @@
-@media(max-width:1075px){
+@media screen and (max-width: 2500px) and (min-width: 1920px){
     header {
-        height: 60vh;
+        height: 80vh;
+        padding: 5%;
     }
+    .container {
+        width: 70%;
+    }
+    .container-text {
+        width: 50%;
+    }
+}
+@media(max-width:1300px){
+    header {
+        height: 70vh;
+    }
+}
+@media(max-width:1075px){
     .hero-img-cont {
         flex-basis: 70%;
         display: flex;
-        background-color: chartreuse;
+    }
+}
+@media(max-width:990px){
+    header {
+        height: 60vh;
+    }
+    .logo {
+        flex-basis: 20%;
+    }
+    .logo-img, .design-soft .soft-1 img, .design-soft .soft-2 img{
+        width: 100%;
     }
 }
 @media(max-width: 767px){
+    section {
+        margin-bottom: 3rem;
+    }
     header {
         height: 80vh;
     }
@@ -40,13 +67,26 @@
     .design-cont p, .design-cont h3 {
        margin-top: 1rem;
     }
+    #screens {
+        padding: 3rem 0;
+    }
+    #screens h2 {
+        margin-bottom: 3rem;
+     }
     .bb .ui-text {
         order: 1;
     }
 }
 @media(max-width: 575px){
+    section {
+        margin-bottom: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
     header {
-        height: 60vh;
+        height: 70vh;
     }
     .container-text {
         width: 90%;
@@ -54,6 +94,34 @@
     .role {
         width: 80%;
         margin-top: 2rem;
+    }
+    #screens {
+        padding: 2rem 0;
+    }
+    #screens .container {
+        width: 90%;
+    }
+    .screen-cont {
+        margin-bottom: 3rem;
+    }
+    #screens h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    #process {
+        padding: 2rem 0;
+    }
+    #process h2 {
+        margin-bottom: 3rem;
+    }
+    #persona .container-text{
+        width: 90%;
+    }
+    .persona-1 {
+        display: none;
+    }
+    .persona-2 {
+        display: block;
     }
     
     

@@ -7,6 +7,11 @@
 }
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #21252F;
+    color: rgba(255, 255, 255, 0.822);
+}
+body p {
+    color: rgba(255, 255, 255, 0.644);
 }
 header {
     background-image: url(img/Group\ 153945.jpg);
@@ -15,7 +20,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     padding: 7%;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 section {
     margin-bottom: 5rem;
@@ -51,7 +56,7 @@ section {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-around;
 }
 .logo {
     flex-basis: 10%;
@@ -64,13 +69,11 @@ section {
 .hero-img-cont {
     flex-basis: 60%;
     display: flex;
-    background-color: chartreuse;
 }
 .hero-img img{
-    width: 90%;
+    width: 100%;
 }
 #process {
-    background-color: #21252F;
     padding: 4rem 0;
 }
 #process h2 {
@@ -97,6 +100,9 @@ section {
 #persona img, #Chart img, #process img, #visual img {
     width: 100%;
 }
+.persona-2 {
+    display: none;
+}
 .low-fi-cont {
     display: flex;
     justify-content: space-between;
@@ -118,6 +124,9 @@ section {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4rem;
+}
+.design-cont p {
+    line-height: 1.5;
 }
 .ui-text {
     flex-basis: 35%;
@@ -142,6 +151,10 @@ section {
 #screens h2 {
    margin-bottom: 5rem;
    text-align: center;
+   color: #1f1f1f;
+}
+#screens h2:last-of-type {
+   margin-bottom: 1rem;
 }
 .screen-cont {
     display: flex;
