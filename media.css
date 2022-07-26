@@ -73,7 +73,7 @@
         font-size: 1.3rem;
     }
     .container-text {
-        width: 90%;
+        width: 85%;
     }
     .role {
         width: 80%;
@@ -98,8 +98,8 @@
     #process h2 {
         margin-bottom: 3rem;
     }
-    #persona .container-text{
-        width: 90%;
+    #persona .container{
+        width: 95%;
     }
     .persona-1 {
         display: none;
