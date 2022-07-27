@@ -55,6 +55,9 @@
     .design-cont p, .design-cont h3 {
        margin-top: 1rem;
     }
+    #screens .container {
+        width: 90%;
+    }
     #screens {
         padding: 3rem 0;
     }
@@ -68,7 +71,7 @@
 @media(max-width: 575px){
     section {
         margin-bottom: 2rem;
-    }  
+    }
     h2 {
         font-size: 1.3rem;
     }
@@ -82,15 +85,16 @@
     #screens {
         padding: 2rem 0;
     }
-    #screens .container {
-        width: 90%;
-    }
     .screen-cont {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     #screens h2 {
         margin-bottom: 2rem;
         text-align: center;
+    }
+    .screen {
+        flex-basis: 44%;
+        margin-bottom: 1.5rem;
     }
     #process {
         padding: 2rem 0;
